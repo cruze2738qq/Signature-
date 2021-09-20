@@ -1,0 +1,5 @@
+Ok, so hopefully it's not too much against the website rules to reply to this topic after so long. Sorry for doing so but I really need some help.
+
+I have created a topic of my own about this but I was just wondering if anybody could adapt this UDF to work with the new Twitter API v1.1 which now only supports JSON and not XML as the UDF currently uses. I have got the function working again by changing the URL the form is POSTed to, but now a File Download dialog appears wanting to download the JSON response which we obviously don't want to happen.
+
+Fortunately, the authentication function still works, however I have adapted this so that once a user has logged in once the OAuth tokens are stored in a file and used whenever the program is run again
